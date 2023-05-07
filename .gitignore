@@ -1,5 +1,4 @@
 .envrc
 __pychache__
-venv
 *.pyc
 venv/
