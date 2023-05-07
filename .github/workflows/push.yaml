@@ -22,6 +22,6 @@ jobs:
       - uses: pulumi/actions@v3
         with:
           command: up
-          stack-name: mr-saoirse/eks-cluster/dev # when using arg prefix org/stack
+          stack-name: dev # when using arg prefix org/stack
         env:
           PULUMI_ACCESS_TOKEN: ${{ secrets.PULUMI_ACCESS_TOKEN }}
