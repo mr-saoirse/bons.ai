@@ -1,4 +1,4 @@
-name: test
+name: eks-cluster
 runtime:
   name: python
   options:
