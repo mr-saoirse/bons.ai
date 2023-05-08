@@ -16,7 +16,7 @@ eks_vpc = awsx.ec2.Vpc("eks-vpc",
     cidr_block=vpc_network_cidr)
 
 # Create the EKS cluster
-eks_cluster = eks.Cluster("eks-cluster2",
+eks_cluster = eks.Cluster("eks-cluster",
     # Put the cluster in the new VPC created earlier
     vpc_id=eks_vpc.vpc_id,
     # Public subnets will be used for load balancers
