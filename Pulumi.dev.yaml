@@ -1,5 +1,5 @@
 config:
-  aws:region: us-east-1
+  aws:region: us-east-2
   bons.ai:desiredClusterSize: "3"
   bons.ai:eksNodeInstanceType: t3.medium
   bons.ai:maxClusterSize: "6"
